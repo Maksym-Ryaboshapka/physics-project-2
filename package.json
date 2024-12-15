@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Maksym-Ryaboshapka/physics-project-2/issues"
   },
-  "homepage": "https://github.com/Maksym-Ryaboshapka/physics-project-2#readme",
+  "homepage": "https://github.com/Maksym-Ryaboshapka/physics-project-2",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.2",
     "gh-pages": "^6.2.0",
