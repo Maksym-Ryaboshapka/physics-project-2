@@ -1,0 +1,14 @@
+@use '~modern-normalize/modern-normalize.css';
+
+@use "./base/common";
+@use "./utils/fonts";
+@use "./base/reset";
+
+@use "./partials/hero";
+@use "./partials/explanation";
+@use "./partials/condensate";
+@use "./partials/avoid";
+
+@use "./components/footer";
+@use "./components/dew-modal";
+

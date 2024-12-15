@@ -1,0 +1,52 @@
+.footer {
+  padding: 100px 0;
+
+  background-color: #333333;
+
+  & * {
+    color: #fff;
+  }
+
+  &__box {
+    margin: 0 0 50px 0;
+
+    display: flex;
+    gap: 30px;
+  }
+
+  &__logo {
+    width: 90px;
+  }
+
+  &__title {
+    margin: 0 0 10px 0;
+
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  &__copyright {
+    font-style: italic;
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__license {
+      max-width: 250px;
+
+      font-size: 20px;
+  }
+
+  &__link {
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  &__github-icon {
+    width: 40px;
+  }
+}

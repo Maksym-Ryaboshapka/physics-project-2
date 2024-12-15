@@ -1,0 +1,32 @@
+{
+  "name": "physics-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym-Ryaboshapka/physics-project-2.git"
+  },
+  "author": "Maksym Ryaboshapka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maksym-Ryaboshapka/physics-project-2/issues"
+  },
+  "homepage": "https://github.com/Maksym-Ryaboshapka/physics-project-2#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.13.2",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
+}
